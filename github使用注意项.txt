@@ -1,0 +1,11 @@
+1.首先用邮箱注册github，创建一个repository.
+2.本地电脑安装git和tortoissGit.
+3.在需要同步的目录下右键‘create new repository here’之后就可以看见当前目录下多了一个隐藏文件夹'.git'说明创建仓库成功。
+4.右键'tortoiss-->setting-->remote'填入远程仓库https://github.com/HelloTmxk/kicad-repo 至此完成本地仓库的远程仓库信息填入工作。
+5.这时候我们可以把我们的本地仓库上传到远程仓库，但是在操作前要右键'tortoiss-->pull' 将远程仓库连接到本地。
+6.至此可以真正传输，假设我们要将2个本地仓库文件上传就右键'tortoiss-->push',如果本地仓库中有新添加的文件或文件夹则需要先右键'Git Commit --> Master'后在执行push。
+
+总之分几步：
+1.右键'tortoiss-->pull' 将远程仓库连接到本地
+2.右键'Git Commit --> Master'(要填写同步说明、作者日期)
+3.右键'tortoiss-->push'
